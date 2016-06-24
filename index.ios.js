@@ -14,6 +14,7 @@ import {
 
 import RootNavigationBar from './AppCode/Component/Navigation/RootNavigationBar';
 import RootTabBar from './AppCode/Component/TabBar/RootTabBar';
+import RootView from './AppCode/Component/TabNavigationBar/RootView'
 
 class RNNovel extends Component {
   render() {
@@ -53,4 +54,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('RNNovel', () => RootNavigationBar);
+AppRegistry.registerComponent('RNNovel', () => RootView);

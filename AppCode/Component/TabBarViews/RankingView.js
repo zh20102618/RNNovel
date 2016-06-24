@@ -10,6 +10,7 @@ import React, {
 
 import {
 	View,
+	Text,
 	StyleSheet,
 	NavigatorIOS
 } from 'react-native';
@@ -17,15 +18,26 @@ import {
 class RankingView extends Component {
 	render() {
 		return (
-			<View style={styles.container}></View>
+			<View style={styles.container}>
+				<Text style={styles.text}>
+					排行
+				</Text>
+			</View>
 		);
 	}
 }
 
 var styles = StyleSheet.create({
 	container: {
-		flex: 1
+		flex: 1,
+		alignItems: 'center',
+		justifyContent: 'center'
 		//backgroundColor: '#3e454d'
+	},
+	text: {
+		color: 'black',
+		fontSize: 20,
+		textAlign: 'center'
 	}
 });
 

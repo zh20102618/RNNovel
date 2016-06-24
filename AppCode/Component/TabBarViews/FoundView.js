@@ -10,6 +10,7 @@ import React, {
 
 import {
 	View,
+	Text,
 	StyleSheet,
 	NavigatorIOS
 } from 'react-native';
@@ -17,7 +18,11 @@ import {
 class FoundView extends Component {
 	render() {
 		return (
-			<View style={styles.container}></View>
+			<View style={styles.container}>
+				<Text style={styles.text}>
+					我的
+				</Text>
+			</View>
 		);
 	}
 }
@@ -25,7 +30,14 @@ class FoundView extends Component {
 var styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: 'green'
+		alignItems: 'center',
+		justifyContent: 'center'
+		//backgroundColor: '#3e454d'
+	},
+	text: {
+		color: 'black',
+		fontSize: 20,
+		textAlign: 'center'
 	}
 });
 

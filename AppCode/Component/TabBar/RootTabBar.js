@@ -38,7 +38,7 @@ class RootTabBar extends Component {
 				>
 				<TabBarIOS.Item
 					title= "推荐"
-				  icon={require('../../../images_src/Tab_Recommend_N.pdf')}
+				  //icon={require('../../../images_src/Tab_Recommend_N.pdf')}
 				  //systemIcon="history"
 				  //selectedIcon={require('../../../images_src/Tab_Recommend_P.pdf')}
 				  selected={this.state.selectedTab === '推荐'}
@@ -51,7 +51,7 @@ class RootTabBar extends Component {
 				</TabBarIOS.Item>
 				<TabBarIOS.Item
 					title= "排行"
-					icon={require('../../../images_src/Tab_Ranking_N.pdf')}
+					//icon={require('../../../images_src/Tab_Ranking_N.pdf')}
 					//systemIcon="history"
 					//selectedIcon={require('../../../images_src/Tab_Ranking_P.pdf')}
 					selected={this.state.selectedTab === '排行'}
@@ -64,7 +64,7 @@ class RootTabBar extends Component {
 				</TabBarIOS.Item>
 				<TabBarIOS.Item
 					title= "书架"
-					icon={require('../../../images_src/Tab_Bookshelf_N.pdf')}
+					//icon={require('../../../images_src/Tab_Bookshelf_N.pdf')}
 					//systemIcon="history"
 					//selectedIcon={require('../../../images_src/Tab_Bookshelf_P.pdf')}
 					selected={this.state.selectedTab === '书架'}
@@ -77,7 +77,7 @@ class RootTabBar extends Component {
 				</TabBarIOS.Item>
 				<TabBarIOS.Item
 					title= "发现"
-					icon={require('../../../images_src/Tab_Found_N.pdf')}
+					//icon={require('../../../images_src/Tab_Found_N.pdf')}
 					//systemIcon="history"
 					//selectedIcon={require('../../../images_src/Tab_Found_P.pdf')}
 					selected={this.state.selectedTab === '发现'}
@@ -90,7 +90,7 @@ class RootTabBar extends Component {
 				</TabBarIOS.Item>
 				<TabBarIOS.Item
 					title= "我的"
-					icon={require('../../../images_src/Tab_My_N.pdf')}
+					//icon={require('../../../images_src/Tab_My_N.pdf')}
 					//systemIcon="history"
 					//selectedIcon={require('../../../images_src/Tab_My_P.pdf')}
 					selected={this.state.selectedTab === '我的'}
